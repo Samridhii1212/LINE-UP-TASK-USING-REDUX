@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+body{
+  background: rgb(255, 185, 185);
+  background: linear-gradient(90deg, rgba(255, 185, 185, 1) 0%, rgba(160, 0, 213, 1) 100%, rgba(213, 29, 237, 1) 100%);
+}
+.list
+{
+  margin-top: 80px;
+  
+}
+.list h1{
+  color:white;
+}
+.list span{
+  color:white;
+  font-size:20px;
+}
+.list input{
+  height:29px;
+  width:250px;
+  background-color: rgb(29, 18, 27);
+  font-family:gabriola;
+  font-size:30px;
+  text-align: center;
+  color:white;
+  border-color:none;
+}
+.list button{
+ background-color: rgb(131, 49, 119);
+  height: 35px;
+  width:50px;
+  border: none;
+  border-color: none;
+ 
+}
+.list h1{
+  font-family:gabriola;
+  text-decoration: underline;
+}
+
+
+.task-item {
+  display: flex;
+  justify-content: center;
+  color:white;
+  width:200px;
+  margin-left:500px;
+}
+
+.listing input {
+  height: 29px;
+  width: 250px;
+  background-color: rgb(29, 18, 27);
+  font-family: gabriola;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.listing button {
+  background-color: rgb(131, 49, 119);
+  height: 35px;
+  width: 50px;
+  border: none;
+
+}
+.listing span {
+  color: white;
+  font-size: 15px;
+}
+.remove
+{
+  background-color:rgb(131, 49, 119);
+  margin-top:50px;
+  color:white;
+  font-size:15px;
+  padding:10px;
+
+}
